@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+* , ::before , ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+ --pale-blue:hsl(225, 100%, 94%);
+ --bright-blue:hsl(245 , 75%, , 52%);
+
+ --very-pale-blue:hsl(225, 100%, 98%);
+ --desaturated-blue:hsl(224, 23%, 55%);
+ --dark-blue:hsl(223, 47%, 23%);
+}
+
+body{
+    font-family:'Red Hat Display' , sans-serif;
+    background-color: var(--pale-blue);
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.attribution {
+    font: size 11px;
+    text-align:center;
+}
+
+.attribution a {
+    color:hsl(228 , 45% , 44%);
+}
+
+h1{
+    font-weight: 900;
+}
+
+button{
+    font-family: inherit;
+}
+
+.svg{
+    height:28.125em;
+    background: url(../images/pattern-background-desktop.svg) no-repeat center/cover;
+}
+
+.container {
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align:center;
+   
+}
+
+
