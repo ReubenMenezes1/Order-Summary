@@ -20,16 +20,28 @@ body{
     background-color: var(--pale-blue);
 }
 
+h1{
+    font-weight: 900;
+}
+
+p{
+    font-size:16px;
+}
+
 img{
     display: block;
     max-width: 100%;
+    border-radius:5px;
 }
 
 a{
     text-decoration: none;
 }
 
-
+.btn{
+    box-sizing: initial;
+    padding: 5px;
+}
 
 .attribution {
     font: size 11px;
@@ -40,26 +52,20 @@ a{
     color:hsl(228 , 45% , 44%);
 }
 
-h1{
-    font-weight: 900;
-}
 
-button{
-    font-family: inherit;
-}
-
-.svg{
+.svg-background {
     height:28.125em;
     background: url(../images/pattern-background-desktop.svg) no-repeat center/cover;
 }
 
-.container {
+.flex-container {
     height:100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
     text-align:center;
+   
    
 }
 
